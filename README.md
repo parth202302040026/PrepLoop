@@ -12,9 +12,9 @@ The platform supports both interviewees and interviewers, combining real-time co
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🤖 AI-Powered Interview Evaluation
+###  AI-Powered Interview Evaluation
 
 * Generates role-specific interview questions using **Google Gemini**
 * Analyzes interview transcripts automatically
@@ -28,14 +28,14 @@ The platform supports both interviewees and interviewers, combining real-time co
   * Overall Rating
   * Hiring Recommendation
 
-### 🎥 Real-Time Interviews
+### Real-Time Interviews
 
 * Real-time video interviews powered by **Stream Video**
 * Interview scheduling and session management
 * Recording and transcription workflows
 * Stream webhook processing for interview lifecycle events
 
-### 👥 Interviewer & Interviewee Workflows
+###  Interviewer & Interviewee Workflows
 
 * Separate workflows for interviewers and candidates
 * Role-based access control
@@ -43,7 +43,7 @@ The platform supports both interviewees and interviewers, combining real-time co
 * Candidate interview history and feedback
 * Interview session management
 
-### 🔐 Authentication & Security
+###  Authentication & Security
 
 * Authentication and user management using **Clerk**
 * Role-based authorization
@@ -51,13 +51,13 @@ The platform supports both interviewees and interviewers, combining real-time co
 * Protected application routes and API endpoints
 * Webhook validation and idempotent event processing
 
-### 💳 Interview Credits
+###  Interview Credits
 
 * Credit-based interview system
 * Credit transactions tracked through the database
 * Interviewers can manage available interview credits
 
-### 🗄️ Persistent Data
+###  Persistent Data
 
 * PostgreSQL database
 * Prisma ORM
@@ -66,7 +66,7 @@ The platform supports both interviewees and interviewers, combining real-time co
 
 ---
 
-## 🧠 AI Interview Pipeline
+##  AI Interview Pipeline
 
 ```text
 Candidate
@@ -109,7 +109,7 @@ Candidate Feedback Dashboard
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 PrepLoop follows a full-stack Next.js architecture with the frontend, server-side application logic, authentication, database access, AI integration, and external services working together.
 
@@ -143,7 +143,7 @@ PrepLoop follows a full-stack Next.js architecture with the frontend, server-sid
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category       | Technologies                            |
 | -------------- | --------------------------------------- |
@@ -160,7 +160,7 @@ PrepLoop follows a full-stack Next.js architecture with the frontend, server-sid
 
 ---
 
-## 🔥 Engineering Highlights
+##  Engineering Highlights
 
 ### Webhook-Driven Processing
 
@@ -186,7 +186,7 @@ Arcjet token-bucket rate limiting is used to control API usage based on the auth
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 PrepLoop/
@@ -207,7 +207,7 @@ PrepLoop/
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -270,7 +270,7 @@ The goal was not simply to call an LLM API, but to integrate AI into a complete 
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * [ ] Interview analytics dashboard
 * [ ] More interview types and assessment modes
@@ -283,7 +283,7 @@ The goal was not simply to call an LLM API, but to integrate AI into a complete 
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Parth Mishra**
 
